@@ -31,9 +31,9 @@
 		log "response code #{$response.code}"
 		expect($response.message).to eql('OK')
 		log "response message #{$response.message}"
-		@jsonToday = JSON.parse("#{$response.body}")
-		expect(@jsonToday["todayCases"]) != (0) #Validando casos do dia anterior
-		log "Casos do dia : #{@jsonToday['todayCases']}"
+		@jsonYesterday = JSON.parse("#{$response.body}")
+		expect(@jsonYesterday["todayCases"]) != (0) #Validando casos do dia anterior
+		log "Casos do dia anterior : #{@jsonYesterday['todayCases']}"
 		log "response headers #{$response.headers}"
 		log "response body #{$response.body}"		
 	end
@@ -48,13 +48,16 @@
 		log "response code #{$response.code}"
 		expect($response.message).to eql('OK')
 		log "response message #{$response.message}"
+		@jsontwoDaysAgo = JSON.parse("#{$response.body}")
+		expect(@jsontwoDaysAgo["todayCases"]) != (0) #Validando casos de dois dias antes
+		log "Casos de dois dias antes : #{@jsontwoDaysAgo['todayCases']}"
 		log "response headers #{$response.headers}"
 		log "response body #{$response.body}"		
 	end
 
 	Dado('que informo o pais incorreto {string}') do |country|
 		@country = country
-	  end
+	end
 
 	Entao('terei como retorno dados da menssagem com o codigo {int}') do |int|
 		expect($response.code).to eql(int)		
@@ -129,7 +132,7 @@
 		expect(@jsonResp["population"]).to be_a_kind_of(Integer)
 		log "Population  : #{@jsonResp["population"]}"
 
-		expect(@jsonResp["continent"]).to be_a_kind_of(String) #Tem um bug
+		expect(@jsonResp["continent"]).to be_a_kind_of(String) #Tem um bug 
 		log "Continent  : #{@jsonResp["continent"]}"
 
 		expect(@jsonResp["oneCasePerPeople"]).to be_a_kind_of(Integer)
@@ -145,15 +148,11 @@
 		log "Undefined  : #{@jsonResp["undefined"]}"
 
 		expect(@jsonResp["activePerOneMillion"]).to be_a_kind_of(Float)
-		log "Ative Per One Million  : #{@jsonResp["activePerOneMillion"]}"
+		log "Active Per One Million  : #{@jsonResp["activePerOneMillion"]}"
 
 		expect(@jsonResp["recoveredPerOneMillion"]).to be_a_kind_of(Float)
 		log "Recovered Per One Million  : #{@jsonResp["recoveredPerOneMillion"]}"
 
 		expect(@jsonResp["criticalPerOneMillion"]).to be_a_kind_of(Float)
-		log "Critical Per One Million  : #{@jsonResp["criticalPerOneMillion"]}"
-				
-	  end
-	
-		
-	
+		log "Critical Per One Million  : #{@jsonResp["criticalPerOneMillion"]}"				
+	  end	
