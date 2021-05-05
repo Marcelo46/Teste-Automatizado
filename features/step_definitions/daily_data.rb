@@ -1,6 +1,3 @@
-	
-	require "rspec"
-
 	Dado('que informo o pais {string}') do |country|
 		@country = country
 	end
