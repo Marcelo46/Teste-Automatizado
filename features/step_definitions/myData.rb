@@ -4,13 +4,13 @@ Dado('que estou logado como {string} e {string}') do |email, password|
 	find("input[name*=passwd]").set (password)
 	#scroll_to(page.find("button[id=SubmitLogin]"))
 	find("form[id=login_form]").click	
-	sleep 2
+	#sleep 2
 	find(".icon-lock.left").click
   end
 	
 Quando('clico no botao home') do
 	find(".icon-chevron-left").click
-	sleep 5
+	#sleep 2
 end
   
 Entao('devo ser redirecionado para pagina principal do site') do

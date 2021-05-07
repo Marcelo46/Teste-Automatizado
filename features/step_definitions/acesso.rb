@@ -21,3 +21,4 @@ Dado('que acesso a pagina de login') do
 	alert = find(".alert li")
 	expect(alert.text).to eql (mensagem)
   end
+  
