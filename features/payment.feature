@@ -1,11 +1,12 @@
 #language: pt
-@contrato
-Funcionalidade: Aceitar contrato e frete
+
+@pagamento
+Funcionalidade: Pagamento
 	Sendo um visitante do site Automation
-	Quero aceitar o valor do frete e termos do contrato
+	Quero escolher uma forma de pagamento disponivel
 	Para continuar com minha compra	
 	
-	Cenario: Aceitar termos do contrato
+	Cenario: Escolher forma de pagamento transferencia
 		Dado que estou logado como "bojis61173@httptuan.com" e "123456"
 		E clico no botao home		
 		Quando acesso a home do site e clico no produto escolhido 
@@ -18,8 +19,11 @@ Funcionalidade: Aceitar contrato e frete
 		Quando clico para aceitar os termos do contrato
 		E clico processar carrinho
 		Entao devo ser redirecionado para pagina de metodos de pagamento com o texto "PLEASE CHOOSE YOUR PAYMENT METHOD"
-	
-	Cenario: Não aceitar termos do contrato
+		Quando clico em pagar por transferencia bancaria 
+		Entao devo ser redirecionado para confirmar minha compra e ver "BANK-WIRE PAYMENT."
+
+	@temp
+	Cenario: Escolher forma de pagamento cheque
 		Dado que estou logado como "bojis61173@httptuan.com" e "123456"
 		E clico no botao home		
 		Quando acesso a home do site e clico no produto escolhido 
@@ -29,6 +33,8 @@ Funcionalidade: Aceitar contrato e frete
 		Entao devo ser redirecionado para pagina de confirmacao do endereco e o texto "ADDRESSES"
 		Quando clico no botao confirmar endereco
 		Entao devo ser redirecionado para pagina de confirmacao do frete com o texto "SHIPPING"
+		Quando clico para aceitar os termos do contrato
 		E clico processar carrinho
-		Então devo ver a mensagem de alerta "You must agree to the terms of service before continuing."
-		
+		Entao devo ser redirecionado para pagina de metodos de pagamento com o texto "PLEASE CHOOSE YOUR PAYMENT METHOD"
+		Quando clico em pagar com cheque 
+		Entao devo ser redirecionado para confirmar minha compra e ver "CHECK PAYMENT"

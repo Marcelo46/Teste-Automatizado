@@ -3,9 +3,8 @@
 Funcionalidade: Confirmar endereco
 	Sendo um visitante do site Automation
 	Quero acessar a pagina de confirmacao de endereco
-	Para verificar se o endereco esta correto
+	Para verificar se o endereco esta correto	
 	
-	@marce
 	Cenario: Confirmar endereco de entrega
 		Dado que estou logado como "bojis61173@httptuan.com" e "123456"
 		E clico no botao home		
