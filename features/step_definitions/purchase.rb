@@ -14,6 +14,7 @@ Quando('acesso a home do site e clico no produto escolhido') do
 	sleep 1
   end
   
-  Entao('devo os dados de confirmacao da compra') do
-	expect(page).to have_text 'SHOPPING-CART SUMMARY'
+  Entao('devo ver os dados de confirmacao da compra e {string}') do |mensagem|
+	alert = expect(page).to have_text (mensagem)
+	log (alert)
   end

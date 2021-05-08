@@ -1,3 +1,3 @@
-Before '@daily_data' do
-	#@yesterday = true
+Before do
+	page.current_window.resize_to(1440, 900)
 end

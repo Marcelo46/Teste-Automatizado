@@ -18,6 +18,6 @@ Funcionalidade: Comprar
 		E clico no botao home		
 		Quando acesso a home do site e clico no produto escolhido 
 		E clico em adicionar ao carrinho
-		Entao devo os dados de confirmacao da compra
+		Entao devo ver os dados de confirmacao da compra e "SHOPPING-CART SUMMARY"
 
 	
