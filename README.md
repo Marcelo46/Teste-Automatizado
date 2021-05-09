@@ -61,58 +61,56 @@ Clique em code e copie o link
 
 No C: do seu computador crie uma pasta do projeto. Pode usar o nome achar melhor
 
-![](Aspose.Words.fe40d78d-adc0-43e8-b8fc-5151dd2e8915.002.png)
+![Slide17](https://user-images.githubusercontent.com/34240983/117578576-608f9300-b0c5-11eb-93b9-1ad00f865bce.PNG)
 
 Abra o Visual Studio Code, e abra a pasta que foi criada para o projeto.
 
-![](Aspose.Words.fe40d78d-adc0-43e8-b8fc-5151dd2e8915.002.png)
+![Slide16](https://user-images.githubusercontent.com/34240983/117578575-608f9300-b0c5-11eb-94f2-29a131faf395.PNG)
 
 Abra um novo terminal no VS Code
 
-![](Aspose.Words.fe40d78d-adc0-43e8-b8fc-5151dd2e8915.003.png)
+![Slide18](https://user-images.githubusercontent.com/34240983/117578577-61282980-b0c5-11eb-8e73-81c7910529f5.PNG)
 
-No novo terminal digite o comando gti clone, e cole na frente do comando o link copiado no GitHub
+No novo terminal digite o comando git clone, e cole na frente do comando o link copiado no GitHub
 
-![](Aspose.Words.fe40d78d-adc0-43e8-b8fc-5151dd2e8915.001.png)
+![Slide19](https://user-images.githubusercontent.com/34240983/117578579-61282980-b0c5-11eb-8872-1063b555dd3a.PNG)
 
 No terminal do VS Code navegue até a pasta do projeto clonado
 
-![](Aspose.Words.fe40d78d-adc0-43e8-b8fc-5151dd2e8915.001.png)
+![Slide21](https://user-images.githubusercontent.com/34240983/117578580-61c0c000-b0c5-11eb-81d5-5b441e9b6fc7.PNG)
 
 Estando na pasta do projeto clonado, digite o comando **gem install bundler**
 
-![](Aspose.Words.fe40d78d-adc0-43e8-b8fc-5151dd2e8915.001.png)
+![Slide22](https://user-images.githubusercontent.com/34240983/117578581-61c0c000-b0c5-11eb-8101-e5163ee705b7.PNG)
 
 Após finalizar a instalação do bundler. Digite o comando **bundle install**
 
-![](Aspose.Words.fe40d78d-adc0-43e8-b8fc-5151dd2e8915.001.png)
+![Slide23](https://user-images.githubusercontent.com/34240983/117578584-62595680-b0c5-11eb-980f-4e34fdc1e0f3.PNG)
 
 Clique neste link para baixar o [geckodriver](https://github.com/mozilla/geckodriver/releases) do Mozilla e escolha conforme a arquitetura do seu computador
 
-![](Aspose.Words.fe40d78d-adc0-43e8-b8fc-5151dd2e8915.001.png)
+![Slide25](https://user-images.githubusercontent.com/34240983/117578585-62f1ed00-b0c5-11eb-9cf9-84ae440edf88.PNG)
 
 Descompacte o arquivo baixado. Coloque o geckodriver.exe na pasta **C:\Windows** do seu computador
 
-![](Aspose.Words.fe40d78d-adc0-43e8-b8fc-5151dd2e8915.001.png)
+![Slide26](https://user-images.githubusercontent.com/34240983/117578587-62f1ed00-b0c5-11eb-950b-2df36da5a169.PNG)
 
 Agora clicando nos 3 pontinhos do canto superior direito do seu browser. Na guia aberta clique em ajuda, depois sobre o Google Chrome
 
-![](Aspose.Words.fe40d78d-adc0-43e8-b8fc-5151dd2e8915.001.png)
+![Slide27](https://user-images.githubusercontent.com/34240983/117578588-638a8380-b0c5-11eb-980d-d98db380c673.PNG)
 
 Veja qual é a versão do seu Chrome
 
-![](Aspose.Words.fe40d78d-adc0-43e8-b8fc-5151dd2e8915.001.png)
+![Slide28](https://user-images.githubusercontent.com/34240983/117578589-64231a00-b0c5-11eb-840c-db289f04eea2.PNG)
 
 Clique neste link para baixar o [chromedriver](https://chromedriver.storage.googleapis.com/index.html) do Chrome, escolha a versão igual do browser
 
-
-
-![](Aspose.Words.fe40d78d-adc0-43e8-b8fc-5151dd2e8915.001.png)
+![Slide29](https://user-images.githubusercontent.com/34240983/117578590-64231a00-b0c5-11eb-89f9-cda89c602ab7.PNG)
 
 Escolha conforme a arquitetura do seu computador
 
-![](Aspose.Words.fe40d78d-adc0-43e8-b8fc-5151dd2e8915.001.png)
+![Slide30](https://user-images.githubusercontent.com/34240983/117578591-64bbb080-b0c5-11eb-9c48-3774ed002e5a.PNG)
 
 Descompacte o arquivo. Recorte o arquivo **chromedriver.exe** e cole na pasta **C:\Windows** do seu computador
 
-![](Aspose.Words.fe40d78d-adc0-43e8-b8fc-5151dd2e8915.004.png)
+![Slide31](https://user-images.githubusercontent.com/34240983/117578592-65544700-b0c5-11eb-9614-7c312c78bbc8.PNG)
