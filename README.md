@@ -120,9 +120,9 @@ Descompacte o arquivo. Recorte o arquivo **chromedriver.exe** e cole na pasta **
 
 ### Como executar os testes automatizado
 
-Abra o Prompt de comando do Windows, Navegue até a pasta do projeto e digite os camandos
+Abra o Prompt de comando do Windows, Navegue até a pasta do projeto e digite os camandos da tabela de comandos abaixo
 
-![](Aspose.Words.7e2931ac-67e8-4fa3-876e-798446917155.005.png)
+![Slide35](https://user-images.githubusercontent.com/34240983/117581124-a81c1c00-b0d1-11eb-84e1-039e6ca7e0bd.PNG)
 
 ### Tabela de comandos
 
