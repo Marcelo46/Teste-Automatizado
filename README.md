@@ -113,4 +113,4 @@ Escolha conforme a arquitetura do seu computador
 
 Descompacte o arquivo. Recorte o arquivo **chromedriver.exe** e cole na pasta **C:\Windows** do seu computador
 
-![Slide31](https://user-images.githubusercontent.com/34240983/117578592-65544700-b0c5-11eb-9614-7c312c78bbc8.PNG)
+![slide34](https://user-images.githubusercontent.com/34240983/117578595-66857400-b0c5-11eb-8ee3-8ad822791086.png)
