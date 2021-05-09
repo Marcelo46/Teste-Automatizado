@@ -9,19 +9,19 @@ Teste funcional do site Automation
 ### Instalação do ambiente
 Acesse a página do [Ruby](https://ruby-lang.org/pt) e clique em Baixe o Ruby 
 
-![](Aspose.Words.fe40d78d-adc0-43e8-b8fc-5151dd2e8915.001.png)
+![Slide1](https://user-images.githubusercontent.com/34240983/117578465-d9dab600-b0c4-11eb-8393-da6c455d55a5.PNG)
 
 Se estiver usando sistema operacional Windows clique em **RubyInstaller.** 
 
-![](Aspose.Words.fe40d78d-adc0-43e8-b8fc-5151dd2e8915.001.png)
+![Slide2](https://user-images.githubusercontent.com/34240983/117578466-db0be300-b0c4-11eb-80d9-b7a976038596.PNG)
 
 Clique em Download
 
-![](Aspose.Words.fe40d78d-adc0-43e8-b8fc-5151dd2e8915.001.png)
+![Slide3](https://user-images.githubusercontent.com/34240983/117578467-dba47980-b0c4-11eb-9278-2be2f665e257.PNG)
 
 Escolha as opções conforme a imagem.
 
-![](Aspose.Words.fe40d78d-adc0-43e8-b8fc-5151dd2e8915.001.png) 
+![Slide4](https://user-images.githubusercontent.com/34240983/117578468-dc3d1000-b0c4-11eb-9e11-cd07f5d632e7.PNG) 
 
 Aceite os termos
 
