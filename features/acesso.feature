@@ -4,8 +4,7 @@ Funcionalidade: Logar no site de compras
 	Sendo um visitante do site Automation
 	Quero realizar meu login
 	Para que eu possa acessar minhas informações
-
-	@log
+	
 	Cenario: logar
 		Dado que acesso a pagina de login
 		Quando submeto meu login com

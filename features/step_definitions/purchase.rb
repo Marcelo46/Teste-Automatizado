@@ -1,5 +1,6 @@
 Quando('acesso a home do site e clico no produto escolhido') do
-img = find("img[src$='http://automationpractice.com/img/p/1/0/10-home_default.jpg']")	
+	scroll_to(page.find("img[src$='http://automationpractice.com/img/p/1/0/10-home_default.jpg']"))
+	img = find("img[src$='http://automationpractice.com/img/p/1/0/10-home_default.jpg']")	
 	sleep 2	
 	img.hover
 	find("a[data-id-product='4']").click	

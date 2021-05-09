@@ -11,8 +11,7 @@ Funcionalidade: Comprar
 		E clico no botao home				
 		Quando acesso a home do site e clico no produto escolhido				
 		Entao devo ser redirecionado para pagina do produto escolhido
-
-	@tes
+	
 	Cenario: Adicionar no carrinho de compras
 		Dado que estou logado como "bojis61173@httptuan.com" e "123456"
 		E clico no botao home		
