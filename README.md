@@ -5,6 +5,9 @@ Teste funcional do site Automation
 
 ### Dependências
 
+#### Programas necessários para o funcionamento da automatização
+
+Clique nos links para instalar o browser [Firefox](https://www.mozilla.org/pt-BR/firefox/new/) e o [VS Code](https://code.visualstudio.com/download)
 
 ### Instalação do ambiente
 Acesse a página do [Ruby](https://ruby-lang.org/pt) e clique em Baixe o Ruby 
@@ -114,3 +117,41 @@ Escolha conforme a arquitetura do seu computador
 Descompacte o arquivo. Recorte o arquivo **chromedriver.exe** e cole na pasta **C:\Windows** do seu computador
 
 ![slide34](https://user-images.githubusercontent.com/34240983/117578595-66857400-b0c5-11eb-8ee3-8ad822791086.png)
+
+### Como executar os testes automatizado
+
+Abra o Prompt de comando do Windows, Navegue até a pasta do projeto e digite os camandos
+
+![](Aspose.Words.7e2931ac-67e8-4fa3-876e-798446917155.005.png)
+
+### Tabela de comandos
+
+|cucumber|Executa todos os testes funcionais e regressivos|
+| :- | :- |
+|cucumber –t @logar\_web|Executa os testes funcionais do login|
+|cucumber –t @dados|Executa os testes funcionais da minha conta|
+|cucumber –t @comprar|Executa os testes funcionais da página comprar|
+|cucumber –t @confirmarCompra|Executa os testes funcionais da página confirmar compra|
+|cucumber –t @confirm|Executa os testes funcionais da página confirmar endereço|
+|cucumber –t @contrato|Executa os testes funcionais da página aceitar termos do contrato|
+|cucumber –t @ordem|Executa os testes funcionais da página da ordem de compra|
+|cucumber –t @covid|Executa os testes da API do Covid no Brasil|
+|cucumber –t @hoje|Executa os testes da API do Covid no Brasil no dia|
+|cucumber –t @ontem|Executa os testes da API do Covid no Brasil no dia de ontem|
+|cucumber –t @antesDeOntem|Executa os testes da API do Covid no Brasil de dois dias atrás|
+|cucumber –t @errado|Executa os testes da API do Covid caso não escolha um pais|
+|cucumber –t @contrato|Executa os testes de contrato na API|
+
+### Abrir os relatórios de teste
+
+No Vs Code na raiz do projeto clique com o botão direito do mouse em **report.html**
+
+![](Aspose.Words.7e2931ac-67e8-4fa3-876e-798446917155.006.png)
+
+Na aba que abrir, clique em copiar caminho
+
+![](Aspose.Words.7e2931ac-67e8-4fa3-876e-798446917155.007.png)
+
+Abra uma nova aba no Google Chrome, cole o caminho copiado e tecle Enter. Você terá acesso aos relatórios Cucumber da execução dos testes 
+
+![](Aspose.Words.7e2931ac-67e8-4fa3-876e-798446917155.008.png)
