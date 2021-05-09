@@ -146,12 +146,12 @@ Abra o Prompt de comando do Windows, Navegue até a pasta do projeto e digite os
 
 No Vs Code na raiz do projeto clique com o botão direito do mouse em **report.html**
 
-![](Aspose.Words.7e2931ac-67e8-4fa3-876e-798446917155.006.png)
+![Slide36](https://user-images.githubusercontent.com/34240983/117581128-a8b4b280-b0d1-11eb-800c-358bb3330eeb.PNG)
 
 Na aba que abrir, clique em copiar caminho
 
-![](Aspose.Words.7e2931ac-67e8-4fa3-876e-798446917155.007.png)
+![Slide37](https://user-images.githubusercontent.com/34240983/117581130-a94d4900-b0d1-11eb-876e-231b50d2c236.PNG)
 
 Abra uma nova aba no Google Chrome, cole o caminho copiado e tecle Enter. Você terá acesso aos relatórios Cucumber da execução dos testes 
 
-![](Aspose.Words.7e2931ac-67e8-4fa3-876e-798446917155.008.png)
+![Slide38](https://user-images.githubusercontent.com/34240983/117581132-aa7e7600-b0d1-11eb-95ad-b9d5738b71a2.PNG)
