@@ -97,19 +97,19 @@ Descompacte o arquivo baixado. Coloque o geckodriver.exe na pasta **C:\Windows**
 
 Agora clicando nos 3 pontinhos do canto superior direito do seu browser. Na guia aberta clique em ajuda, depois sobre o Google Chrome
 
-![Slide27](https://user-images.githubusercontent.com/34240983/117578588-638a8380-b0c5-11eb-980d-d98db380c673.PNG)
+![Slide29](https://user-images.githubusercontent.com/34240983/117578590-64231a00-b0c5-11eb-89f9-cda89c602ab7.PNG)
 
 Veja qual é a versão do seu Chrome
 
-![Slide28](https://user-images.githubusercontent.com/34240983/117578589-64231a00-b0c5-11eb-840c-db289f04eea2.PNG)
+![Slide30](https://user-images.githubusercontent.com/34240983/117578591-64bbb080-b0c5-11eb-9c48-3774ed002e5a.PNG)
 
 Clique neste link para baixar o [chromedriver](https://chromedriver.storage.googleapis.com/index.html) do Chrome, escolha a versão igual do browser
 
-![Slide29](https://user-images.githubusercontent.com/34240983/117578590-64231a00-b0c5-11eb-89f9-cda89c602ab7.PNG)
+![Slide33](https://user-images.githubusercontent.com/34240983/117578594-65ecdd80-b0c5-11eb-9a4b-3bd02315e447.png)
 
 Escolha conforme a arquitetura do seu computador
 
-![Slide30](https://user-images.githubusercontent.com/34240983/117578591-64bbb080-b0c5-11eb-9c48-3774ed002e5a.PNG)
+![Slide31](https://user-images.githubusercontent.com/34240983/117578592-65544700-b0c5-11eb-9614-7c312c78bbc8.PNG)
 
 Descompacte o arquivo. Recorte o arquivo **chromedriver.exe** e cole na pasta **C:\Windows** do seu computador
 
