@@ -1,5 +1,6 @@
 #language: pt
 
+@covid
 Funcionalidade: Obter os dados da Covid-19 no Brasil
 	Sendo um visitante do site disease.sh
 	Quero realizar requisicoes na API
