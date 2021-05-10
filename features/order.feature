@@ -5,7 +5,8 @@ Funcionalidade: Historico de compras
 	Sendo um visitante do site Automation
 	Quero ter acesso ao historico de compras
 	Para ver e baixar minhas compras
-	
+
+	@temp
 	Cenario: Ver detalhes da compra
 		Dado que estou logado como "bojis61173@httptuan.com" e "123456"
 		E clico no botao home		
@@ -22,5 +23,5 @@ Funcionalidade: Historico de compras
 		Quando clico em pagar por transferencia bancaria 
 		Entao devo ser redirecionado para confirmar minha compra e ver "BANK-WIRE PAYMENT."
 		Quando clico na referencia da ordem
-		E tenho acesso 
-		Entao devo ter acesso 
+		E tenho acesso aos dados
+		Entao devo ver "FOLLOW YOUR ORDER'S STATUS STEP-BY-STEP"
