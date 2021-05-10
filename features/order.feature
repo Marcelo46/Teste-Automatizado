@@ -6,7 +6,7 @@ Funcionalidade: Historico de compras
 	Quero ter acesso ao historico de compras
 	Para ver e baixar minhas compras
 
-	@temp
+	
 	Cenario: Ver detalhes da compra
 		Dado que estou logado como "bojis61173@httptuan.com" e "123456"
 		E clico no botao home		

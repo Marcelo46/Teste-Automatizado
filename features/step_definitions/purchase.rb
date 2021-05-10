@@ -9,6 +9,7 @@ end
 
 Entao('devo ser redirecionado para pagina do produto escolhido') do
 	expect(page).to have_text 'Product successfully added to your shopping cart'
+	page.save_screenshot("pages/popUpComprar.png")
 end
 
 Quando('clico em adicionar ao carrinho') do	
@@ -19,5 +20,6 @@ end
 
 Entao('devo ver os dados de confirmacao da compra e {string}') do |mensagem|
 	alert = expect(page).to have_text (mensagem)
+	page.save_screenshot("pages/ConfirmComprar.png")
 	log (alert)
 end
