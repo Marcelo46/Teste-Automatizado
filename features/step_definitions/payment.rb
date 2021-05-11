@@ -19,7 +19,7 @@ Entao('devo ser redirecionado para confirmar minha compra e ver {string}') do |m
 	$t = $t.gsub(".","")
 	$t = $t.strip()
 
-	log ($t)	
+	log "Numero da ordem: #{$t}"	
 		
 	find("a[title='Back to orders']").click #Botão ir para as ordens de compra finalizadas
 	page.save_screenshot("pages/ordem.png")
@@ -43,7 +43,7 @@ Entao('devo ser redirecionado para aceitar a compra e ver {string}') do |mensage
 	$t = $t.gsub(".","")
 	$t = $t.strip()
 
-	log ($t)	
+	log "Numero da ordem: #{$t}"	
 		
 	find("a[title='Back to orders']").click #Botão ir para as ordens de compra finalizadas
 	page.save_screenshot("pages/ordem.png")
