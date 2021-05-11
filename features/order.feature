@@ -7,7 +7,7 @@ Funcionalidade: Historico de compras
 	Para ver e baixar minhas compras
 
 	
-	Cenario: Ver detalhes da compra
+	Cenario: Escolher forma de pagamento cheque
 		Dado que estou logado como "bojis61173@httptuan.com" e "123456"
 		E clico no botao home		
 		Quando acesso a home do site e clico no produto escolhido 
@@ -20,8 +20,8 @@ Funcionalidade: Historico de compras
 		Quando clico para aceitar os termos do contrato
 		E clico processar carrinho
 		Entao devo ser redirecionado para pagina de metodos de pagamento com o texto "PLEASE CHOOSE YOUR PAYMENT METHOD"
-		Quando clico em pagar por transferencia bancaria 
-		Entao devo ser redirecionado para confirmar minha compra e ver "BANK-WIRE PAYMENT."
+		Quando clico em pagar com cheque 
+		Entao devo ser redirecionado para confirmar minha compra e ver "CHECK PAYMENT"
 		Quando clico na referencia da ordem
 		E tenho acesso aos dados
 		Entao devo ver "FOLLOW YOUR ORDER'S STATUS STEP-BY-STEP"

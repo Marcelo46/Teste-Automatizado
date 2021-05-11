@@ -1,7 +1,12 @@
 Quando('clico na referencia da ordem') do
-	#find("a[title='Pay by bank wire']").click
-	#idOrder = querystring["id_order"]
-	#idOrder = querystring[:id_order]
+	idOrd = find(".first_item a[class=color-myaccount]").text
+	log "Numero da ordem: #{idOrd}"
+
+	if [$idOrd == $t] then
+		find(".first_item a[class=color-myaccount]").click #Validando se o número da ordem está correto		 
+	end
+	scroll_to(page)
+	sleep 3	
 end
 
 Quando('tenho acesso aos dados') do
@@ -9,6 +14,6 @@ Quando('tenho acesso aos dados') do
 	pending # Write code here that turns the phrase above into concrete actions
 end
 
-Entao('devo ver {string}') do |string|
-	pending # Write code here that turns the phrase above into concrete actions
+Entao('devo ver {string}') do |mensagem|
+	expect(page).to have_text (mensagem)
 end

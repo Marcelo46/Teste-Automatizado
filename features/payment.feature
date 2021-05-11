@@ -5,7 +5,7 @@ Funcionalidade: Pagamento
 	Sendo um visitante do site Automation
 	Quero escolher uma forma de pagamento disponivel
 	Para continuar com minha compra	
-	@temp
+	
 	Cenario: Escolher forma de pagamento transferencia
 		Dado que estou logado como "bojis61173@httptuan.com" e "123456"
 		E clico no botao home		
@@ -21,7 +21,6 @@ Funcionalidade: Pagamento
 		Entao devo ser redirecionado para pagina de metodos de pagamento com o texto "PLEASE CHOOSE YOUR PAYMENT METHOD"
 		Quando clico em pagar por transferencia bancaria 
 		Entao devo ser redirecionado para aceitar a compra e ver "BANK-WIRE PAYMENT."
-
 	
 	Cenario: Escolher forma de pagamento cheque
 		Dado que estou logado como "bojis61173@httptuan.com" e "123456"
@@ -38,5 +37,10 @@ Funcionalidade: Pagamento
 		Entao devo ser redirecionado para pagina de metodos de pagamento com o texto "PLEASE CHOOSE YOUR PAYMENT METHOD"
 		Quando clico em pagar com cheque 
 		Entao devo ser redirecionado para confirmar minha compra e ver "CHECK PAYMENT"
+
+
+	#@te
+	#Cenario: teste
+	#	Dado que visito a pagina
 
 	
