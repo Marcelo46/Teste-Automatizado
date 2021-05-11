@@ -10,8 +10,12 @@ Quando('clico na referencia da ordem') do
 end
 
 Quando('tenho acesso aos dados') do
-	#find("href='javascript:showOrder(1, #{idOrder}, 'http://automationpractice.com/index.php?controller=order-detail');").click
-	pending # Write code here that turns the phrase above into concrete actions
+	ref = find(".item td:nth-child(1) > label").text
+	prod = find(".item > td.bold > label").text
+	quant = find(".item > td.return_quantity > label > span").text
+	log "Referencia: #{ref}"
+	log "Produto: #{prod}"
+	log "Quantidade: #{quant}"
 end
 
 Entao('devo ver {string}') do |mensagem|
