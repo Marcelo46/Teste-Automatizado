@@ -7,7 +7,9 @@ Teste funcional do site Automation
 
 #### Programas necessários para o funcionamento da automatização
 
-Clique nos links para instalar o browser [Firefox](https://www.mozilla.org/pt-BR/firefox/new/) e o [VS Code](https://code.visualstudio.com/download)
+Caso não tenha instalado em seu computador
+
+Clique nos links para instalar o [Firefox](https://www.mozilla.org/pt-BR/firefox/new/), [VS Code](https://code.visualstudio.com/download) e o [gitHub](https://git-scm.com/downloads)
 
 ### Instalação do ambiente
 Acesse a página do [Ruby](https://ruby-lang.org/pt) e clique em Baixe o Ruby 
