@@ -1,7 +1,7 @@
-# TesteShift
-Teste de contrato da API disease.sh com Cucumber, Capybara eRuby
+# Teste Automatizado backend e frontend com BDD, Cucumber, Capybara, HTTParty e Ruby
+Teste de contrato e funcional da API [disease.sh](https://corona.lmao.ninja/). Retorna os dados atualizados da COVID-19 no Brasil - Para ter acesso ao Swagger clique em VIEW DOCS na página inicial do site
 
-Teste funcional do site Automation
+Teste funcional do site [Automation](http://automationpractice.com/index.php)
 
 ### Dependências
 
