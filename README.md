@@ -1,13 +1,15 @@
-# TesteShift
-Teste de contrato da API disease.sh com Cucumber, Capybara eRuby
+# Teste Automatizado backend e frontend com BDD, Cucumber, Capybara, HTTParty e Ruby
+Teste de contrato e funcional da API [disease.sh](https://corona.lmao.ninja/). Retorna os dados atualizados da COVID-19 no Brasil - Para ter acesso ao Swagger clique em VIEW DOCS na página inicial do site
 
-Teste funcional do site Automation
+Teste funcional do site [Automation](http://automationpractice.com/index.php)
 
 ### Dependências
 
 #### Programas necessários para o funcionamento da automatização
 
-Clique nos links para instalar o browser [Firefox](https://www.mozilla.org/pt-BR/firefox/new/) e o [VS Code](https://code.visualstudio.com/download)
+Caso não tenha instalado em seu computador
+
+Clique nos links para instalar o [Firefox](https://www.mozilla.org/pt-BR/firefox/new/), [VS Code](https://code.visualstudio.com/download) e o [gitHub](https://git-scm.com/downloads)
 
 ### Instalação do ambiente
 Acesse a página do [Ruby](https://ruby-lang.org/pt) e clique em Baixe o Ruby 
