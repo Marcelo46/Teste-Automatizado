@@ -15,7 +15,7 @@ end
 
 Entao('devo ver a mensagem de alerta {string}') do |aviso|
 	alerta = find(".fancybox-error")
-	expect(alerta.text).to eql (aviso)
+	expect(alerta.text).to eql (aviso)	
 	page.save_screenshot("pages/naoTermos.png")
 	find("a[title=Close]").click
 end
