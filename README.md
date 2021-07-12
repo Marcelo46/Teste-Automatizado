@@ -12,7 +12,7 @@ Caso não tenha instalado em seu computador
 Clique nos links para instalar o [Firefox](https://www.mozilla.org/pt-BR/firefox/new/), [VS Code](https://code.visualstudio.com/download) e o [gitHub](https://git-scm.com/downloads)
 
 ### Instalação do ambiente
-Acesse a página do [Ruby](https://www.ruby-lang.org/pt/downloads/) e clique em Baixe o Ruby 
+Acesse a página do [Ruby](https://www.ruby-lang.org/pt/) e clique em Baixe o Ruby 
 
 ![Slide1](https://user-images.githubusercontent.com/34240983/117578465-d9dab600-b0c4-11eb-8393-da6c455d55a5.PNG)
 
